@@ -1,0 +1,278 @@
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family:  'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+h1 {
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(font/font_inter/Inter-VariableFont_slnt\,wght.ttf);
+  font-family: "Playfair Display";
+  src: url(font/font_playfair/PlayfairDisplay-VariableFont_wght.ttf);
+}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 600px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 100px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.pesquisa {
+  padding: 10px;
+  border-radius: 50%;
+
+  background-color: #dbdbdb;
+}
+.pesquisa :nth-child(1){
+  cursor: pointer;
+}
+.wrapper :nth-child(3) {
+  background-color: #fd665e;
+  padding: 14px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+aside h1 {
+  width: 900px;
+  margin-left: 220px;
+
+  font-weight: 600;
+  font-size: 130px;
+  font-family: "Playfair Display";
+}
+span {
+  color: #fd665e;
+}
+aside .container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  
+}
+.container :nth-child(1){
+  display: flex;
+  flex-direction: column;
+}
+.container a{
+  width: 460px;
+  font-size: 28px;
+  font-weight: 400;
+}
+button{
+  width: 180px;
+  height: 60px;
+  border: none;
+  margin-top: 100px;
+  font-weight: 600;
+  cursor: pointer;
+
+  color: #fff;
+  background-color: #fd665e;
+}
+.container img{
+  width: 1066px;
+  height: 560px;
+}
+
+.gallery{
+  display: flex;
+  flex-direction: column;
+}
+.gallery h1{
+  font-size: 60px;
+  font-weight: 800;
+  width: 600px;
+  margin-top: 200px;
+}
+.gallery .img{
+  display: flex;
+  justify-content: space-evenly;
+}
+.gallery .img :nth-child(1n+1):hover{
+  transition: 1.2s;
+  scale: 1.2;
+}
+
+.value{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  width: 1800px;
+  margin-top: 140px;
+}
+.container_archmove :nth-child(1){
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.value h1{
+  width: 295px;
+  font-size: 60px;
+}
+.value img{
+  height: 800px;
+}
+.value .textos :nth-child(1n){
+  display: flex;
+  margin-top: 10px;
+}
+.texto{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+button[type="archmove"]{
+  position: relative;
+  left: -280px;
+  top: 60px;
+  width: 200px;
+  cursor: pointer;
+}
+.texto h3{
+  font-weight: 800;
+}
+.texto h4{
+  letter-spacing: 1px;
+  position: relative;
+  left: 0;
+  width: 400px;
+  
+}
+
+.testimonial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 180px;
+  width: 1200px;
+  gap: 54px;
+}
+.testimonial h1{
+  font-size: 60px;
+}
+.testimonial p{
+  font-size: 30px;
+  width: 900px;
+}
+.container2 p{
+  display: flex;
+  flex-direction:column;
+  align-items: flex-end;
+}
+.container_text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;;
+}
+.container_text :nth-child(2){
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  width: 1200px;
+}
+h4{
+  position: relative;
+  right: -980px;
+}
+.info :nth-child(2){
+  display: flex;
+  gap: 30px;
+  width: auto;
+}
+svg{
+  background-color: #474747;
+  padding: 8px;
+}
+.container_aspas{
+  display: flex;
+  width: 900px;
+  gap: 60px;
+}
+.aspas{
+  background: none;
+  width: 80px;
+}
+.cta{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 200px;
+}
+.cta h2{
+  font-size: 80px;
+  width: 580px;
+}
+.cta :nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+footer h2{
+  width: 1800px;
+  font-size: 50px;
+}
+.group{
+  align-content: center;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.group svg{
+  width: 200px;;
+  background-color: black;
+}
+.theme{
+  animation: 2s;
+  rotate: 0deg;
+  background-color: #d3d3d3;
+  border-radius: 50%;
+  padding: 3px;
+}
