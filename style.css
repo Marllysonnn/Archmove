@@ -131,7 +131,6 @@ button{
   justify-content: center;
   align-items: center;
   gap: 80px;
-  width: 1800px;
   margin-top: 140px;
 }
 .container_archmove :nth-child(1){
@@ -153,7 +152,6 @@ button{
   display: flex;
   flex-direction: column;
   margin-left: 50px;
-  background-color: #cecece;
 }
 button[type="archmove"]{
   position: relative;
@@ -254,7 +252,6 @@ footer{
   gap: 20px;
 }
 footer h2{
-  width: 1800px;
   font-size: 50px;
 }
 .group{
@@ -262,7 +259,7 @@ footer h2{
   width: fit-content;
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 34px;
 }
 .group svg{
   width: 200px;
